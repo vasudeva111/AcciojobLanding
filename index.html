@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link
+   href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+   rel="stylesheet"
+   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+   crossorigin="anonymous"
+ />
+ <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+   integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ />
+    <title>Document</title>
+</head>
+<body>
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- new naav bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div><img src="./Logo.png" alt="navImg1" id="nav-img"></div>
+    <div class="container">
+      <div class="logo">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/full-logo.png" alt=""
+        /></a>
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/NSDC_Logo.png" alt=""
+        /></a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-code icon me-2"></i> MERN Full StackDevelopment</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-laptop-code icon me-2"></i> JAVA FullStack Development</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-chart-pie icon me-2"></i> DataAnalytics</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">AccioJob Reviews</a>
+          </li>
+
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Scholarship Test</a>
+          </li>
+
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle "href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-calendar-check icon me-2"></i>Events</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-brands fa-blogger icon me-2"></i> Blogs</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-trend-up icon me-2"></i> Refer& Earn</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-regular fa-handshake icon me-2"></i> Hire FromUs</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-regular fa-user icon me-2"></i> Become aMentor</a>
+              </li>
+            </ul>
+          </li>
+
+          <button type="button" class="btn btn-outline-primary fst-italic mx-2">Login</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="bar text-center fst-italic p-2">
+    <p class="m-0">Next batch starts in ⌛ 22 Days, Hurry! </p>
+  </div>
+
+
+<!-- nav bar
+<nav class="bg-light border-bottom  py-2 d-flex justify-content-around align-items-center ">
+<div><img src="./Logo.png" alt="navImg1" id="nav-img"></div>
+<div class="my-nav">
+   
+    <span class="dropdown border-none">
+        <a class="btn btn-secondary dropdown-toggle bg-light text-dark border-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown link
+        </a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </span>
+    <button class="nav-btns btn ">Acciojob Reviews</button>
+    <button class="nav-btns btn ">Scholorship Test</button>
+    <span class="dropdown border-none">
+        <a class="btn btn-secondary dropdown-toggle bg-light text-dark border-none" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          More
+        </a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </span>
+    <button type="button" class="btn btn-outline-primary">Login</button>
+</div>
+</nav>
+<img src="./Announcement.png" alt="anouncement" width="100%" id="hero-front"> -->
+<!-- hero section -->
+<ssection class="card d-flex flex-row justify-content-around align-items-center p-5  my-hero">
+   
+   
+        <img src="./Hero Left.png" alt="hero-left">
+        <div class="hero-right flex-row">
+    <img src="./Frame 1000001626 (1).png" alt="heroFrame">
+    
+    <form class="d-flex flex-column ">
+        <input type="text" class="py-2 mt-3" placeholder="Samrant Samantaray">
+        <input type="number" class="py-2 my-3" placeholder="Phone Number">
+    </form>
+    <div>
+        <button type="submit" class="hero-btn" >Apply Now For Free ></button>
+        <div>
+           <pre>By Clicking  'Apply Now'  , you agree to our</pre>
+           <p class="text-center">Terms & Condition</p>
+        </div>
+    </div>
+</div>
+</ssection>
+
+<!-- our courses -->
+<div class="my-course">
+    <div class="d-flex flex-column justify-conten-around">
+        <h5 class="text-center my-course-h5 mt-5">LEARN FULL STACK WEB-DEVELOPMENT</h5>
+        <H2 class="text-center my-course-h2">OUR COURSES</H2>
+    </div>
+    <div class="d-flex justify-content-center my-course-forms">
+        <form class="d-flex flex-column bg-light mx-3">
+            <img src="./out-title-f1.png" alt="OC-F1" height="107px" width="296px">
+           <img src="./Details.png" alt="OC-f1-details" width="426px" height="266px">
+           <div class="my-oc-btn">
+            <button type="button" class="btn btn-outline-primary px-5"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
+            <button type="button" class="btn btn-primary px-5">Learn More</button>
+           </div>
+        </form>
+        <form class="d-flex flex-column bg-light mx-3">
+            <img src="./Title (1).png" alt="OC-F2" height="107px" width="296px">
+           <img src="./Details (1).png" alt="OC-f2-details" width="426px" height="266px">
+           <div class="my-oc-btn">
+            <button type="button" class="btn btn-outline-primary px-5"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
+            <button type="button" class="btn btn-primary px-5">Learn More</button>
+           </div>
+        </form>
+    </div>
+</div>
+
+<!-- startup-section -->
+<section class="startup-section flex-column justify-content-center align-items-center">
+<div class="text-center heading">
+    <p class="startup-tcompany"><i>Over 300+ Hiring Partners</i></Over></p>
+    <h1><i>Top Startups & MNCs Hire</i></h1>
+    <h1 class="startup-SE"><i>Software Engineer</i></h1>
+    <p><i>from Acciojob upto 40Lakhs</i></p>
+</div>
+<img src="./Companies Logo.png" alt="company-logo" width="1224px" height="306px" class="company-logo">
+<button class="btn btn-primary my-5">Placement Report ></button>
+</section>
+
+<!-- footer -->
+<div class="my-footer">
+    <div>  
+<h1 class="text-center mt-5">Acciojob Success Stories </h1>
+<p class="text-center mb-5">Our Alumni Say It Best</p>
+    </div >
+    <div class="alumni-comment">
+        <div class="virat-comment my-comment" >
+            <div>
+                <img src="./virat.png.png" alt="kohali-name">
+                <img src="./LinkedIN.png" alt="linkedin">
+            </div>
+            <div>My Life changed when I became a part of the
+                AccioJob family. Before that I was not able to
+                code. As soon as I joined Accio,
+                I craked so many interviews.
+            </div>
+            <div><small> june 14,2022</small></div>
+        </div>
+
+        <div class="ishan-comment my-comment" >
+            <div>
+                <img src="./ishan.png.png" alt="kohali-name">
+                <img src="./Quora.png" alt="linkedin">
+            </div>
+            <div>My Life changed when I became a part of the
+                AccioJob family. Before that I was not able to
+                code. As soon as I joined Accio,
+                I craked so many interviews.so i placed in one of the best company.
+            </div>
+            <div><small> june 14,2022</small></div>
+        </div>
+
+        <div class="virendra-comment my-comment" >
+            <div>
+                <img src="./virendra.png.png" alt="virendra">
+                <img src="./LinkedIN.png" alt="linkedin">
+            </div>
+            <div>My Life changed when I became a part of the
+                AccioJob family. Before that I was not able to
+                code. As soon as I joined Accio,
+                I craked so many interviews.so i placed in one of the best company Walmart.
+            </div>
+            <div><small> june 16,2022</small></div>
+        </div>
+
+        <div class="rohit-comment my-comment" >
+            <div>
+                <img src="./rohit.png.png" alt="rohit">
+                <img src="./Quora.png" alt="linkedin">
+            </div>
+            <div>My Life changed when I became a part of the
+                AccioJob family. Before that I was not able to
+                code. As soon as I joined Accio,
+                I craked so many interviews.so i placed in one of the best company.
+            </div>
+            <div><small> feb 14,2022</small></div>
+        </div>
+
+        <div class="sarfaraz-comment my-comment" >
+            <div>
+                <img src="./sarfaraj.png.png" alt="sarfaraj">
+                <img src="./LinkedIN.png" alt="linkedin">
+            </div>
+            <div>good skills developed from one of the best online platform from  accio.
+            </div>
+            <div><small> july 14,2022</small></div>
+        </div>
+
+        
+
+        <div class="virat-comment my-comment" >
+            <div>
+                <img src="./sachin.png.png" alt="sachin">
+                <img src="./LinkedIN.png" alt="linkedin">
+            </div>
+            <div>i cracked one the best company it remains as acciojob way of teaching thanks for such a good circulam..
+            </div>
+            <div><small> june 14,2020</small></div>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
